@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "431702673008",
+    "firebase_url": "https://demoqrcode-feb81.firebaseio.com",
+    "project_id": "demoqrcode-feb81",
+    "storage_bucket": "demoqrcode-feb81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431702673008:android:6f29c9d80aae55a9",
+        "android_client_info": {
+          "package_name": "com.example.dangkhoa.qrcodefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431702673008-gjp1g0vdtgumqcup2pc6fnnr1d4cbaea.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXQJ2M9ZftDiGsW2dH-iX-6-XJGfG_3YA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
