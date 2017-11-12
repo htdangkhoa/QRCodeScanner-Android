@@ -1,5 +1,6 @@
 package com.example.dangkhoa.qrcodefirebase.Fragments;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -32,17 +33,29 @@ public class CameraFragment extends Fragment implements ZXingScannerView.ResultH
         return zXingScannerView;
     }
 
+    public void openCamera() {
+        zXingScannerView.startCamera(1);
+        zXingScannerView.setResultHandler(this);
+    }
+
+    public void stopCamera() {
+        zXingScannerView.stopCamera();
+    }
+
+    public void resumeCamera() {
+        zXingScannerView.resumeCameraPreview(this);
+    }
+
     @Override
     public void onResume() {
         super.onResume();
-        zXingScannerView.startCamera(1);
-        zXingScannerView.setResultHandler(this);
+        openCamera();
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        zXingScannerView.stopCamera();
+        stopCamera();
     }
 
     @Override
@@ -57,7 +70,12 @@ public class CameraFragment extends Fragment implements ZXingScannerView.ResultH
             bundle.putString("DETAIL", object.getString("detail"));
             Services.Navigate(getFragmentManager(), new DetailedFragment(), "DETAILED", bundle, Services.FROM_RIGHT_TO_LEFT);
         } catch (JSONException e) {
-            e.printStackTrace();
+            Services.ShowDialog(getContext(), "Error", "The data structure is incorrect. Please try again.", null, null, "OK", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    resumeCamera();
+                }
+            });
         }
     }
 }

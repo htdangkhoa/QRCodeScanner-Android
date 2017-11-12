@@ -64,7 +64,7 @@ public class Services {
 
     public static void ShowDialog(final Context context, String title, String message, String negativeButton, DialogInterface.OnClickListener negativeButtonOnClickListener, String positiveButton, DialogInterface.OnClickListener positiveButtonOnClickListener ) {
         final AlertDialog.Builder builder = new AlertDialog.Builder((Activity) context);
-        builder.setCancelable(true);
+        builder.setCancelable(false);
         builder.setTitle(title);
         builder.setMessage(message);
 
