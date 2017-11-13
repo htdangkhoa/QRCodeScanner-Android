@@ -11,17 +11,93 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dcefcea-2779-4394-b3c8-1bd27c91b463" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-03-00-977.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-03-00-977.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-05-06-500.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-05-06-500.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-05-58-000.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-05-58-000.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-08-10-427.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-08-10-427.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-10-22-983.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-10-22-983.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-12-04-010.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-12-04-010.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-13-43-951.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-13-43-951.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-17-14-501.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-17-14-501.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-18-21-485.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-18-21-485.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-18-41-320.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-18-41-320.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-19-55-691.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-01-19-55-691.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-05-24-338.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-05-24-338.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-16-47-779.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-16-47-779.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-19-14-767.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-19-14-767.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-21-00-444.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-21-00-444.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-22-40-176.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-22-40-176.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-23-54-211.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-23-54-211.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-26-01-058.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-26-01-058.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-26-52-490.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-26-52-490.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-27-17-538.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-27-17-538.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-27-35-703.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-27-35-703.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-28-02-916.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-28-02-916.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-28-25-373.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-28-25-373.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-28-40-936.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-28-40-936.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-28-57-354.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-28-57-354.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-29-19-100.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-29-19-100.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-49-08-609.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-49-08-609.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-49-17-872.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-49-17-872.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-49-42-702.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-02-49-42-702.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-17-32-47-428.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-17-32-47-428.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-17-32-53-110.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-17-32-53-110.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-17-38-04-399.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-17-38-04-399.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-17-41-05-161.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-17-41-05-161.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-17-44-12-894.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-17-44-12-894.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-17-47-03-621.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-12-17-47-03-621.rawproto" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/CameraFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/CameraFrameFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/jarAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskJars.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/CameraFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/CameraFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Utils/Services.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Utils/Services.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/HomeFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/HomeFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/MainActivity.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,25 +124,23 @@
       <file leaf-file-name="build.gradle" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="46" lean-forward="false" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+            <state relative-caret-position="570">
+              <caret line="38" column="52" lean-forward="false" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CameraFragment.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/CameraFragment.java">
+      <file leaf-file-name="CameraFrameFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/CameraFrameFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+            <state relative-caret-position="599">
+              <caret line="114" column="93" lean-forward="false" selection-start-line="114" selection-start-column="93" selection-end-line="114" selection-end-column="93" />
               <folding>
-                <element signature="e#1147#1148#0" expanded="true" />
-                <element signature="e#1192#1193#0" expanded="true" />
-                <element signature="e#1226#1227#0" expanded="true" />
-                <element signature="e#1284#1285#0" expanded="true" />
-                <element signature="e#2130#2336#0" expanded="true" />
-                <element signature="e#2335#2336#0" expanded="true" />
+                <element signature="e#2121#2122#0" expanded="true" />
+                <element signature="e#2179#2180#0" expanded="true" />
+                <element signature="e#3025#3231#0" expanded="true" />
+                <element signature="e#3230#3231#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,9 +149,11 @@
       <file leaf-file-name="Services.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Utils/Services.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
+            <state relative-caret-position="765">
               <caret line="66" column="35" lean-forward="false" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1879,11 +1955,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Utils/Network.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_camera.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Activities/CameraActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_detail.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/Cms_fragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/SuperClass/DividerItemDecoration.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Receivers/Network.java" />
@@ -1893,12 +1967,15 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/DetailedFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Utils/Firebase.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Realm/QRCode.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/HomeFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/model_qr.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Adapters/QRAdapter.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Utils/Services.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_camera.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/HomeFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/CameraFragment.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/CameraFrameFragment.java" />
       </list>
     </option>
   </component>
@@ -1925,36 +2002,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="QRCodeFirebase" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="QRCodeFirebase" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="QRCodeFirebase" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="QRCodeFirebase" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2009,40 +2056,49 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="QRCodeFirebase" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QRCodeFirebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QRCodeFirebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="QRCodeFirebase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qrcodefirebase" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fragments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="device.picker.selection" value="192.168.56.101:5555" />
+    <property name="device.picker.selection" value="AQJRQG7HSS89PNIR" />
     <property name="android.profiler.active" value="true" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -2142,7 +2198,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510483626252" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510558248446" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2190,7 +2246,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510483626252" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510558248446" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2222,6 +2278,27 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2352,7 +2429,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510483626253" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510558248447" />
       </method>
     </configuration>
     <list size="1">
@@ -2402,9 +2479,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951146" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962328" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962328" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2423,7 +2501,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951146" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2437,28 +2514,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="47" lean-forward="false" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/HomeFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Activities/CameraActivity.java" />
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -2601,7 +2656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_camera.xml" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.journeyapps/zxing-android-embedded/3.5.0/2b2382977c77bd91f84dd2d306d64183e751c48c/zxing-android-embedded-3.5.0-sources.jar!/com/google/zxing/integration/android/IntentIntegrator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -2632,22 +2686,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/core-1.9.8.aar/e00f83d43deaa95f73dab421e679a4fb/jars/classes.jar!/me/dm7/barcodescanner/core/BarcodeScannerView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="207" column="46" lean-forward="false" selection-start-line="207" selection-start-column="45" selection-end-line="207" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="10" lean-forward="false" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_detailed.xml">
@@ -2711,13 +2758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/HomeFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Models/QRModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -2760,40 +2800,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Utils/Services.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="765">
+          <caret line="66" column="35" lean-forward="false" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_camera.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="46" lean-forward="false" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+        <state relative-caret-position="90">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="34" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Utils/Services.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/HomeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="66" column="35" lean-forward="false" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+        <state relative-caret-position="614">
+          <caret line="109" column="5" lean-forward="false" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/CameraFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+        <state relative-caret-position="390">
+          <caret line="26" column="46" lean-forward="false" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
           <folding>
-            <element signature="e#1147#1148#0" expanded="true" />
-            <element signature="e#1192#1193#0" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
-            <element signature="e#1284#1285#0" expanded="true" />
-            <element signature="e#2130#2336#0" expanded="true" />
-            <element signature="e#2335#2336#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="52" lean-forward="false" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/core-1.9.8.aar/e00f83d43deaa95f73dab421e679a4fb/jars/classes.jar!/me/dm7/barcodescanner/core/CameraHandlerThread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/core-1.9.8.aar/e00f83d43deaa95f73dab421e679a4fb/jars/classes.jar!/me/dm7/barcodescanner/core/CameraPreview.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/core-1.9.8.aar/e00f83d43deaa95f73dab421e679a4fb/jars/classes.jar!/me/dm7/barcodescanner/core/BarcodeScannerView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="207" column="16" lean-forward="false" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/dangkhoa/qrcodefirebase/Fragments/CameraFrameFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="114" column="93" lean-forward="false" selection-start-line="114" selection-start-column="93" selection-end-line="114" selection-end-column="93" />
+          <folding>
+            <element signature="e#2121#2122#0" expanded="true" />
+            <element signature="e#2179#2180#0" expanded="true" />
+            <element signature="e#3025#3231#0" expanded="true" />
+            <element signature="e#3230#3231#0" expanded="true" />
           </folding>
         </state>
       </provider>

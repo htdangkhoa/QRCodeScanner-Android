@@ -1,8 +1,10 @@
 package com.example.dangkhoa.qrcodefirebase;
 
+import android.content.ContextWrapper;
 import android.content.IntentFilter;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 
 import com.example.dangkhoa.qrcodefirebase.Fragments.HomeFragment;
@@ -10,6 +12,7 @@ import com.example.dangkhoa.qrcodefirebase.Realm.QRCode;
 import com.example.dangkhoa.qrcodefirebase.Receivers.Network;
 import com.example.dangkhoa.qrcodefirebase.Utils.Firebase;
 import com.example.dangkhoa.qrcodefirebase.Utils.Services;
+import com.pixplicity.easyprefs.library.Prefs;
 
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
@@ -20,15 +23,24 @@ public class MainActivity extends AppCompatActivity {
     Realm realm;
     public static QRCode qrCode;
 
+    int CAMERA_ID = 0;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        initialize();
+        initialize(savedInstanceState);
     }
 
-    private void initialize() {
+    private void initialize(Bundle bundle) {
+        new Prefs.Builder()
+                .setContext(this)
+                .setMode(ContextWrapper.MODE_PRIVATE)
+                .setPrefsName(getPackageName())
+                .setUseDefaultSharedPreference(true)
+                .build();
+
         Realm.init(this);
         configuration = new RealmConfiguration.Builder().name("qr_codes.realm").build();
         realm = Realm.getInstance(configuration);
@@ -36,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
         Firebase.initializeFirebase(this);
 
-        Services.Navigate(getSupportFragmentManager(), new HomeFragment(),"HOME", null, Services.NO_ANIMATION);
+        Services.Navigate(getSupportFragmentManager(), new HomeFragment(),"HOME", bundle, Services.NO_ANIMATION);
     }
 
     public void getNetworkStatus() {
