@@ -1,8 +1,10 @@
 package com.example.dangkhoa.qrcodefirebase.Fragments;
 
 import android.content.DialogInterface;
+import android.hardware.Camera;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -15,7 +17,6 @@ import android.widget.ToggleButton;
 import com.example.dangkhoa.qrcodefirebase.R;
 import com.example.dangkhoa.qrcodefirebase.Utils.Services;
 import com.google.zxing.Result;
-import com.pixplicity.easyprefs.library.Prefs;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -23,15 +24,28 @@ import org.json.JSONObject;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import me.dm7.barcodescanner.core.CameraUtils;
+import me.dm7.barcodescanner.core.CameraWrapper;
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
 
 /**
  * Created by dangkhoa on 11/11/17.
  */
 
-public class CameraFrameFragment extends Fragment implements ZXingScannerView.ResultHandler, CompoundButton.OnCheckedChangeListener {
-    ToggleButton btnSwitch;
+public class CameraFrameFragment extends Fragment implements ZXingScannerView.ResultHandler {
     public static ZXingScannerView zXingScannerView;
+    int cameraId = 0;
+    @OnClick(R.id.btnSwitch) public void onSwitch() {
+        if (cameraId == 1) {
+            Bundle bundle = new Bundle();
+            bundle.putInt("CAMERA_ID", 0);
+            Services.Navigate(getFragmentManager(), new CameraFrameFragment(), "CAMERA", bundle, Services.NO_ANIMATION);
+        } else {
+            Bundle bundle = new Bundle();
+            bundle.putInt("CAMERA_ID", 1);
+            Services.Navigate(getFragmentManager(), new CameraFrameFragment(), "CAMERA", bundle, Services.NO_ANIMATION);
+        }
+    }
 
     @Nullable
     @Override
@@ -44,13 +58,15 @@ public class CameraFrameFragment extends Fragment implements ZXingScannerView.Re
     }
 
     private void initialize(View view) {
-        btnSwitch = (ToggleButton) view.findViewById(R.id.btnSwitch);
-        btnSwitch.setOnCheckedChangeListener(this);
+        Bundle bundle = getArguments();
+        cameraId = bundle.getInt("CAMERA_ID", 0);
+        ButterKnife.bind(this, view);
     }
 
     private void openCamera() {
-        zXingScannerView.setAspectTolerance(0.5f);
-        zXingScannerView.startCamera(0);
+        if (cameraId != 0) zXingScannerView.setAspectTolerance(.5f);
+
+        zXingScannerView.startCamera(cameraId);
         zXingScannerView.setResultHandler(this);
     }
 
@@ -93,16 +109,6 @@ public class CameraFrameFragment extends Fragment implements ZXingScannerView.Re
                     resumeCamera();
                 }
             });
-        }
-    }
-
-    @Override
-    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-        stopCamera();
-        if (!isChecked) {
-            zXingScannerView.startCamera(0);
-        } else {
-            zXingScannerView.startCamera(1);
         }
     }
 }

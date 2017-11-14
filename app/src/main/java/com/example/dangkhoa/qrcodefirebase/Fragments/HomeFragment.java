@@ -80,7 +80,9 @@ public class HomeFragment extends Fragment {
             return;
         }
 
-        Services.Navigate(getFragmentManager(), new CameraFrameFragment(), "CAMERA", null, Services.FROM_BOTTOM_TO_TOP);
+        Bundle bundle = new Bundle();
+        bundle.putInt("CAMERA_ID", 0);
+        Services.Navigate(getFragmentManager(), new CameraFrameFragment(), "CAMERA", bundle, Services.FROM_BOTTOM_TO_TOP);
     }
 
     private void requestCameraPermission() {

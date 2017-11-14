@@ -4,8 +4,10 @@ import android.content.ContextWrapper;
 import android.content.IntentFilter;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
-import android.os.PersistableBundle;
+import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.view.View;
 
 import com.example.dangkhoa.qrcodefirebase.Fragments.HomeFragment;
 import com.example.dangkhoa.qrcodefirebase.Realm.QRCode;
@@ -30,10 +32,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        initialize(savedInstanceState);
+        initialize();
     }
 
-    private void initialize(Bundle bundle) {
+    private void initialize() {
         new Prefs.Builder()
                 .setContext(this)
                 .setMode(ContextWrapper.MODE_PRIVATE)
@@ -48,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
         Firebase.initializeFirebase(this);
 
-        Services.Navigate(getSupportFragmentManager(), new HomeFragment(),"HOME", bundle, Services.NO_ANIMATION);
+        Services.Navigate(getSupportFragmentManager(), new HomeFragment(),"HOME", null, Services.NO_ANIMATION);
     }
 
     public void getNetworkStatus() {
@@ -57,6 +59,20 @@ public class MainActivity extends AppCompatActivity {
 
         changeReceiver.onReceive(getApplicationContext(), getIntent());
         registerReceiver(changeReceiver, intentFilter);
+    }
+
+    public void backFunction() {
+        String CURRENT_TAG = getSupportFragmentManager().getBackStackEntryAt(getSupportFragmentManager().getBackStackEntryCount()-1).getName();
+        Log.i("TAG", CURRENT_TAG);
+
+        if (CURRENT_TAG.equals("CAMERA")) {
+            for(Fragment fragment : getSupportFragmentManager().getFragments()){
+                getSupportFragmentManager().beginTransaction().remove(fragment).commit();
+            }
+            Services.Navigate(getSupportFragmentManager(), new HomeFragment(),"HOME", null, Services.NO_ANIMATION);
+        } else {
+            getSupportFragmentManager().popBackStack();
+        }
     }
 
     @Override
@@ -68,6 +84,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-        unregisterReceiver(changeReceiver);
+    }
+
+    @Override
+    public void onBackPressed() {
+        backFunction();
     }
 }

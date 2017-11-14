@@ -4,6 +4,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Handler;
+import android.os.Looper;
 import android.util.Log;
 
 import com.example.dangkhoa.qrcodefirebase.Fragments.HomeFragment;
@@ -23,7 +24,7 @@ import java.util.ArrayList;
 public class Network extends BroadcastReceiver {
     @Override
     public void onReceive(final Context context, Intent intent) {
-        new Handler().postDelayed(new Runnable() {
+        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
             @Override
             public void run() {
                 boolean IsConnected = com.example.dangkhoa.qrcodefirebase.Utils.Network.getConnectivityStatusString(context);
@@ -53,6 +54,6 @@ public class Network extends BroadcastReceiver {
                     HomeFragment.txtStatus.setText("Network: Off");
                 }
             }
-        }, 3000);
+        }, 5000);
     }
 }

@@ -3,6 +3,7 @@ package com.example.dangkhoa.qrcodefirebase.Utils;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.util.Log;
 
 /**
  * Created by dangkhoa on 11/10/17.
@@ -18,12 +19,16 @@ public class Network {
                 .getSystemService(Context.CONNECTIVITY_SERVICE);
 
         NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
-        if (null != activeNetwork) {
-            if(activeNetwork.getType() == ConnectivityManager.TYPE_WIFI)
-                return TYPE_WIFI;
-
-            if(activeNetwork.getType() == ConnectivityManager.TYPE_MOBILE)
-                return TYPE_MOBILE;
+        if (activeNetwork != null && activeNetwork.isConnected()) {
+            switch (activeNetwork.getType()) {
+                case ConnectivityManager.TYPE_WIFI: {
+                    return TYPE_WIFI;
+                }
+                case ConnectivityManager.TYPE_MOBILE: {
+                    return TYPE_MOBILE;
+                }
+                default: return TYPE_NOT_CONNECTED;
+            }
         }
         return TYPE_NOT_CONNECTED;
     }
