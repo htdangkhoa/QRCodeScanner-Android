@@ -10,39 +10,33 @@ import android.util.Log;
  */
 
 public class Network {
-    public static int TYPE_WIFI = 1;
-    public static int TYPE_MOBILE = 2;
-    public static int TYPE_NOT_CONNECTED = 0;
+    static int TYPE_WIFI = 1;
+    static int TYPE_MOBILE = 2;
+    static int TYPE_NOT_CONNECTED = 0;
 
     public static int getConnectivityStatus(Context context) {
-        ConnectivityManager cm = (ConnectivityManager) context
-                .getSystemService(Context.CONNECTIVITY_SERVICE);
+        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
 
-        NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
-        if (activeNetwork != null && activeNetwork.isConnected()) {
-            switch (activeNetwork.getType()) {
-                case ConnectivityManager.TYPE_WIFI: {
-                    return TYPE_WIFI;
-                }
-                case ConnectivityManager.TYPE_MOBILE: {
-                    return TYPE_MOBILE;
-                }
-                default: return TYPE_NOT_CONNECTED;
-            }
+        NetworkInfo nwiWifi = cm.getNetworkInfo(cm.TYPE_WIFI);
+        NetworkInfo nwiMobile = cm.getNetworkInfo(cm.TYPE_MOBILE);
+
+        if (nwiWifi != null && nwiWifi.isConnected()) {
+            return TYPE_WIFI;
         }
+
+        if (nwiMobile != null && nwiMobile.isConnected()) {
+            return TYPE_MOBILE;
+        }
+
         return TYPE_NOT_CONNECTED;
     }
 
     public static boolean getConnectivityStatusString(Context context) {
         int conn = getConnectivityStatus(context);
-        boolean status = false ;
-        if (conn == TYPE_WIFI) {
-            status = true;
-        } else if (conn == TYPE_MOBILE) {
-            status = true;
-        } else if (conn == TYPE_NOT_CONNECTED) {
-            status = false;
-        }
-        return status;
+        if (conn == TYPE_WIFI) return true;
+
+        if (conn == TYPE_MOBILE) return true;
+
+        return false;
     }
 }

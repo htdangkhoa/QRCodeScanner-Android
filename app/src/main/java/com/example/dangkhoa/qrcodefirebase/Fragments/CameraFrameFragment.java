@@ -36,6 +36,7 @@ public class CameraFrameFragment extends Fragment implements ZXingScannerView.Re
     public static ZXingScannerView zXingScannerView;
     int cameraId = 0;
     @OnClick(R.id.btnSwitch) public void onSwitch() {
+        getFragmentManager().beginTransaction().remove(this).commit();
         if (cameraId == 1) {
             Bundle bundle = new Bundle();
             bundle.putInt("CAMERA_ID", 0);
@@ -82,7 +83,12 @@ public class CameraFrameFragment extends Fragment implements ZXingScannerView.Re
     @Override
     public void onResume() {
         super.onResume();
-        openCamera();
+        new Handler(Looper.getMainLooper()).post(new Runnable() {
+            @Override
+            public void run() {
+                openCamera();
+            }
+        });
     }
 
     @Override
